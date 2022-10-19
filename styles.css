@@ -1,0 +1,22 @@
+.top-right-logos ul li{
+    list-style-type: none;
+}
+.top-right-logos ul li a{
+    text-decoration: none;
+}
+.top-right-logos li a img{
+    width: 25px;
+}
+.w-175{
+    width: 1.75rem;
+
+}
+.w-2{
+    width: 2rem;
+}
+.bg-nav{
+    background-color: #33a137;
+}
+.color-white{
+    color: #fff;
+}
