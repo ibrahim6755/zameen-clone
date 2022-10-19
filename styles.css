@@ -29,7 +29,10 @@
     width: 8rem;
 }
 .carousel-img-wrapper .carousel-caption{
-    transform: translate(-50% , -50%);
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -40%);
 }
 .carousel-img-wrapper .carousel-caption button{
     background-color: rgba(66, 66, 66, 0.384);
