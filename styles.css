@@ -9,7 +9,6 @@
 }
 .w-175{
     width: 1.75rem;
-
 }
 .w-2{
     width: 2rem;
@@ -17,6 +16,21 @@
 .bg-nav{
     background-color: #33a137;
 }
+.bg-second-nav{
+   color: #f7f7f7;
+}
 .color-white{
     color: #fff;
+}
+.font-small{
+    font-size: small;
+}
+.width-8 {
+    width: 8rem;
+}
+.carousel-img-wrapper .carousel-caption{
+    transform: translate(-50% , -50%);
+}
+.carousel-img-wrapper .carousel-caption button{
+    background-color: rgba(66, 66, 66, 0.384);
 }
