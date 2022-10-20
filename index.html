@@ -12,7 +12,7 @@
         <header class="header">
             <div class="top-nav-bar-wrapper">
                 <div class="top-primary-nav ">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-nav ps-4 pt-0 pb-0">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-green ps-4 pt-0 pb-0">
                         <div class="container-fluid">
                           <a class="navbar-brand" href="#"><i class="bi bi-house-door-fill"></i></a>
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,12 +57,10 @@
                                 </ul>
                               </li>
                               </ul>
-                              <form class="d-flex mx-2">
-                                <button class="btn btn-outline-success m-0 text-white" type="submit">PROPERTY ID  <i class="bi bi-search"></i></button>
-                                <button class="btn btn-outline-success mx-2 text-dark bg-white " type="submit"><i class="bi bi-plus"></i>  ADD PROPERTY</button>
-                              </form>
                               <div class="top-right-logos">
                                 <ul class="d-flex align-items-center">
+                                  <li  class="mx-2"><input type="text" placeholder="Property ID"></li>
+                                  <li  class="mx-2"><button class="bg-white d-flex align-items-center"><i class="bi bi-plus"></i> Add Property</button></li>
                                     <li class="mx-2"><a href="#"><img class="w-2 color-white" src="./img/Urdu-text.svg" alt=""></a></li>
                                     <li class="mx-2"><a href="#"><img class="w-175" src="./img/top-nav-pakistn flag.png" alt=""></a></li>
                                     <li class="mx-2"><a href="#"><i class="bi bi-gear-fill color-white fs-4"></i></a></li>
@@ -78,7 +76,7 @@
                 <div class="top-secondary-nav pt-0 pb-2">
                   <nav class="navbar navbar-expand-lg navbar-light bg-second-nav ps-4 pt-0 pb-0">
                     <div class="container-fluid">
-                      <a class="navbar-brand pt-0 pb-0 " href="#"><img class="width-8" src="./img/zameen_logo-removebg-preview (1).png" alt=""></a>
+                      <a class="navbar-brand pt-0 pb-0 " href="#"><img class="width-8" src="./img/zameen logo.png" alt=""></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -123,22 +121,180 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./img/main carousel img.webp" class="d-block w-100" alt="...">
+                  <div class="overlay"></div><!-- /.overlay -->
                   <div class="carousel-caption d-none d-md-block">
                     <h4>Search properties for sale in Pakistan</h4>
                     <button type="button" class="btn btn-md w-25 border bg-light mx-2 mt-3">BUY</button>
                     <button type="button" class="btn btn-md w-25 border mx-2 text-light fw-bold mt-3">RENT</button>
                     <button type="button" class="btn btn-md w-25 border mx-2 text-light fw-bold mt-3">PROJECTS</button>
+                    <div class="search-engine-wrapper">
+                      <ul class=" d-flex mt-4 p-0">
+                        <li class="pb-0"><input class="p-2" type="search" placeholder="City"></li>
+                        <li class="pb-0"><input class="p-2" type="text" placeholder="Location"></li>
+                        <button class="bg-success pb-0">FIND</button>
+                      </ul>
+                      <ul class="d-flex p-0 m-0 pb-2">
+                        <li class="p-0 fs " ><a class="text-white border-end px-2" href="">More options</a></li>
+                        <li class="p-0 fs"><a class="border-end px-2" href="">Change Currency</a></li>
+                        <li class="p-0 fs"><a class="border-end px-2" href="">Change Area Unit</a></li>
+                        <li class="py-0 px-1 fs"><a class="" href="">Reset search</a></li>
+                      </ul>
+                    </div> <!-- /.search-engine-wrapper -->
                   </div>
                 </div>
                 </div>
               </div>
             </div>
           </section> <!-- /.carousel-img-wrapper -->
+          <div class="container">
+            <div class="explore-sec">
+              <div class="row">
+                <h2 class="pt-5">Explore more on Zameen</h2>
+                <div class="col-md-3">
+                  <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/new project.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title mb-0">New <br> Projects</h5>
+                            <p class="card-text bg-grey">The best investment opertunities</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3">
+                  <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/home loan.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Home Loan Calculator</h5>
+                            <p class="card-text bg-grey">Find affordable loan packages</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3">
+                  <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/area guides.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Area <br> Guides</h5>
+                            <p class="card-text bg-grey">Explore housing society in pakistan</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3">
+                  <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/plot finder.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Plot <br> Finder</h5>
+                            <p class="card-text bg-grey">Find plots in any housing society</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div> <!-- /.col-md-3 -->
+                <div class="row mt-3">
+                 <a href="">
+                  <div class="col-md-3">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/property index.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Property <br>Index</h5>
+                            <p class="card-text bg-grey">Track changes in real estate prices</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 </a>
+                  </div> <!-- /.col-md-3 -->
+                  <div class="col-md-3">
+                   <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/area unit.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Area Unit Converter</h5>
+                            <p class="card-text bg-grey">Convert any unit area instantly</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </a>
+                  </div> <!-- /.col-md-3 -->
+                  <div class="col-md-3">
+                   <a href="">
+                    <div class="card mb-3 border-0 mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="./img/land record.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body p-0">
+                            <h5 class="card-title  mb-0">Land Record Pages</h5>
+                            <p class="card-text bg-grey">Find out ownership details of any property</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </a>
+                  </div> <!-- /.col-md-3 -->
+                  <div class="col-md-3">
+                    <a href="">
+                      <div class="card mb-3 border-0 mt-4">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="./img/property trends.svg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body p-0">
+                              <h5 class="card-title mb-0">Property<br>Trends</h5>
+                              <p class="card-text bg-grey">Find popular areas to buy property</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div> <!-- /.col-md-3 -->
+                </div> <!-- /.row -->
+              </div> <!-- /.row -->
+            </div> <!-- /.explore-sec -->
+          </div><!-- /.container -->
         </main><!-- /.main -->
         <footer class="footer">
 
         </footer><!-- /.footer -->
-
     </div><!-- /.site-wrapper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

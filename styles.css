@@ -13,8 +13,14 @@
 .w-2{
     width: 2rem;
 }
-.bg-nav{
+.fs{
+    font-size: x-small;
+}
+.bg-green{
     background-color: #33a137;
+}
+.bg-grey{
+    color: #a3a3a3;
 }
 .bg-second-nav{
    color: #f7f7f7;
@@ -36,4 +42,63 @@
 }
 .carousel-img-wrapper .carousel-caption button{
     background-color: rgba(66, 66, 66, 0.384);
+}
+.main .carousel-img-wrapper {
+    position: relative;
+}
+.main .carousel-img-wrapper .overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.top-right-logos ul li input{
+    width: 120px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 2px ;
+}
+.top-right-logos ul li input::placeholder{
+    color: white;
+    padding:0 4px;
+    font-size: 13px;
+}
+.top-right-logos ul li button{
+    border-radius: 6px;
+    height: 28px;
+    font-size: 13px;
+    padding: 0 12px 0 6px;
+    border: 0;
+}
+.search-engine-wrapper{
+    width: 570px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.search-engine-wrapper ul{
+    padding: 0;
+    margin: 0;
+}
+.search-engine-wrapper ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+.search-engine-wrapper ul li a{
+    text-decoration: none;
+}
+.search-engine-wrapper ul button{
+    height: 50px;
+    width: 100px;
+    margin: 9px 0;
+}
+.explore-sec img{
+    padding: 12px;
+    width: 60px;
+}
+.explore-sec a{
+    text-decoration: none;
+}
+.explore-sec a h5{
+    color: #222;
 }
