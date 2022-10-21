@@ -102,8 +102,9 @@
     margin: 9px 0;
 }
 .explore-sec img{
-    padding: 12px;
+    padding: 10px;
     width: 70px;
+    border-radius: 10px;
 }
 .explore-sec a{
     text-decoration: none;
@@ -113,4 +114,29 @@
 }
 .titanium-agencies-sec img{
     width:60px;
+}
+.bg-orange{
+    background-color: rgba(236, 112, 10, 0.062);
+}
+.bg-rgba-green{
+    background-color: rgba(9, 163, 4, 0.062);
+}
+.bg-rgba-pink{
+    background-color: rgba(189, 5, 97, 0.062);
+}
+.bg-rgba-purple{
+    background-color: rgba(72, 0, 114, 0.062);
+}
+.bg-rgba-skyblue{
+    background-color:rgba(7, 163, 190, 0.062)
+}
+.bg-rgba-blue{
+    background-color: rgba(15, 3, 185, 0.062);
+}
+
+.explore-sec img:hover{
+    border: 1px solid rgba(236, 112, 10, 0.062) ;
+}
+.explore-sec h5:hover{
+    color:rgba(236, 112, 10, 0.425) ;
 }
