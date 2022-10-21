@@ -331,6 +331,7 @@ footer .about-company ul li{
 list-style-type: none;
 margin: 14px;
 margin-left: 0px;
+font-size: smaller;
 }
 footer .about-company ul li a img{
     width: 20px;
