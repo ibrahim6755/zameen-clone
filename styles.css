@@ -16,6 +16,15 @@
 .fs{
     font-size: x-small;
 }
+.fs-smaller{
+    font-size:smaller ;
+}
+.fs-xx-smalle{
+    font-size: xx-small;
+}
+.fs-medium{
+    font-size: medium;
+}
 .bg-green{
     background-color: #33a137;
 }
@@ -94,11 +103,14 @@
 }
 .explore-sec img{
     padding: 12px;
-    width: 60px;
+    width: 70px;
 }
 .explore-sec a{
     text-decoration: none;
 }
 .explore-sec a h5{
     color: #222;
+}
+.titanium-agencies-sec img{
+    width:60px;
 }
