@@ -375,7 +375,7 @@ footer .copyright p{
 }
 .update-wrapper{
     position: fixed;
-    display: flex;
+    display: flex ;
     align-items: center;
     bottom: 0;
     left: 0;
@@ -401,6 +401,12 @@ width: 60px;
 border-radius: 50%;
 background-color: green;
 }
+.bell-icon button{
+    border: 0;
+    background-color: green;
+    padding: 0;
+}
+
 .bell-icon img{
     position: absolute;
     inset: 0;
