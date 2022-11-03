@@ -374,3 +374,24 @@ footer .copyright p{
     font-size: small;
     margin-left: 60px;
 }
+.update-wrapper{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+}
+.update-wrapper .icon img{
+    width: 50px;
+    justify-content: end;
+
+}
+.update-wrapper .cross button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    border: 0;
+}
