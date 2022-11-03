@@ -384,8 +384,6 @@ footer .copyright p{
 }
 .update-wrapper .icon img{
     width: 50px;
-    justify-content: end;
-
 }
 .update-wrapper .cross button{
     position: absolute;
@@ -405,5 +403,6 @@ background-color: green;
 }
 .bell-icon img{
     position: absolute;
+    inset: 0;
 
 }
